@@ -3,7 +3,6 @@
 ---
 
 # Positional Embedding
-[[Transformer.canvas|Transformer]]
 
 Transformer丢失了位置关系，无法区分如A>B和B>A等，所以需要引入位置编码（positional embedding, PE）。
 
