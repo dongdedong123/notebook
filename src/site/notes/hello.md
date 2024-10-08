@@ -3,5 +3,5 @@
 ---
 
 hello
-牢刘，别肘
+帮帮，帮帮
 [[transformer/Positional Embedding\|Positional Embedding]]
