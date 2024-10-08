@@ -10,9 +10,10 @@ Transformer丢失了位置关系，无法区分如A>B和B>A等，所以需要引
 > 每个token的位置唯一
 > 位置编码间距应该固定
 > 模型可以适应长短不一的句子
-> 位置编码确定
+> 位置编码确定![image.png](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/20241008205937.png)
+
 >
-> ![pe](/img/user/img/pe.png)
+> ![pe](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/pe.png)
 >
 > 来自[Transformer 中的 positional embedding - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359366717#:~:text=关于 pos)
 
@@ -92,14 +93,14 @@ print(size)
 #           9.9716e-01,  1.1943e-02,  9.9993e-01,  1.8929e-03,  1.0000e+00]])
 ```
 
-![image-20241007150641294](/img/user/img/image-20241007150641294.png)
+![image-20241007150641294](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/image-20241007150641294.png)
 
 看下图纵轴Sequence Position(max_len)，每个值（即句子中token的位置（pos））各不相同
 
-![image-20241007145605447](/img/user/img/image-20241007145605447.png)
+![image-20241007145605447](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/image-20241007145605447.png)
 
 下图同理（sin和cos分开绘制）
-![29be0ec4e496473feacdefeac4df0c8b](/img/user/img/29be0ec4e496473feacdefeac4df0c8b.png)
+![29be0ec4e496473feacdefeac4df0c8b](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/29be0ec4e496473feacdefeac4df0c8b.png)
 
 ​										图片来源 The Illustrated Transformer
 
