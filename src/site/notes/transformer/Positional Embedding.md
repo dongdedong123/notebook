@@ -10,9 +10,7 @@ Transformer丢失了位置关系，无法区分如A>B和B>A等，所以需要引
 > 每个token的位置唯一
 > 位置编码间距应该固定
 > 模型可以适应长短不一的句子
-> 位置编码确定![image.png](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/20241008205937.png)
-
->
+> 位置编码确定
 > ![pe](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/pe.png)
 >
 > 来自[Transformer 中的 positional embedding - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359366717#:~:text=关于 pos)
@@ -100,7 +98,8 @@ print(size)
 ![image-20241007145605447](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/image-20241007145605447.png)
 
 下图同理（sin和cos分开绘制）
-![29be0ec4e496473feacdefeac4df0c8b](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/29be0ec4e496473feacdefeac4df0c8b.png)
+![image.png](https://notefangpenglai.oss-cn-beijing.aliyuncs.com/photo/202410082111102.png)
+
 
 ​										图片来源 The Illustrated Transformer
 
