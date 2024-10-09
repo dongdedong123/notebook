@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/transformer/Positional Embedding/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/transformer/positional-embedding/","dgPassFrontmatter":true}
 ---
 
 # Positional Embedding
